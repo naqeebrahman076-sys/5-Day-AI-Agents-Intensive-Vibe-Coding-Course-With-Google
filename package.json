@@ -1,0 +1,20 @@
+{
+  "name": "google-news-cli",
+  "version": "1.0.0",
+  "description": "A terminal CLI application to retrieve the latest Google News",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "google-news-cli": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "prompts": "^2.4.2",
+    "rss-parser": "^3.13.0"
+  }
+}
